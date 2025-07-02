@@ -27,7 +27,6 @@
             --cinza-medio: #888;
             --branco: #FFFFFF;
             --preto-azulado: #1A1A1A; /* Fundo principal */
-
             --font-title: 'Space Grotesk', sans-serif;
             --font-text: 'Inter', sans-serif;
         }
@@ -220,7 +219,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
-            margin-bottom: 60px; /* Espaço entre grids */
+            margin-bottom: 60px;
         }
         .product-card {
             background-color: #222;
@@ -414,6 +413,7 @@
         /* ------------------------- */
         @media (max-width: 768px) {
             body { font-size: 16px; }
+            h2, h3.section-title { font-size: 2.2rem; }
             .hero-section h1 { font-size: 2.5rem; }
             .proof-section blockquote { font-size: 1.5rem; }
             .offer-section h2 { font-size: 2rem; }
@@ -421,214 +421,206 @@
             .product-card { padding: 20px; }
             .product-card .price { font-size: 1.8rem; }
         }
-
     </style>
-   <!-- Google Analytics 4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5N8JD11MZG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5N8JD11MZG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5N8JD11MZG');
+    </script>
 
-  gtag('config', 'G-5N8JD11MZG');
-</script>
+    <script>
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+            var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+            ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+            ttq.load('D0QHUDBC77U4C7NS5HQG');
+            ttq.page();
+        }(window, document, 'ttq');
+    </script>
+    </head>
 
-<!-- TikTok Pixel Code -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-
-  ttq.load('D0QHUDBC77U4C7NS5HQG');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
-
-
-</head>
 <body>
-
-    <section class="hero-section">
-        <div class="container scroll-reveal">
-            <h1>Gere 10x Mais Conteúdo e Converta no Automático – Com Seu Agente IA X.0</h1>
-            <p>Ative seu ecossistema IA para escalar conteúdo, leads e lucro sem contratar ninguém.</p>
-            <a href="#offer" class="cta-button">✅ Ativar Agente X.0 Agora</a>
-        </div>
-    </section>
-
-    <section class="benefits-section">
-        <div class="container scroll-reveal">
-            <ul class="benefits-list">
-                <li><span class="icon">✅</span>Gere 10 posts SEO, e-mails e scripts com 1 clique</li>
-                <li><span class="icon">⚡️</span>Captação, nutrição e conversão com IA – tudo pronto, sem códigos</li>
-                <li><span class="icon">🎨</span>Visual de alto impacto sem precisar de designer ou editor</li>
-                <li><span class="icon">📈</span>Resultados reais: +35% tráfego, –40% tempo</li>
-                <li><span class="icon">💬</span>Suporte VIP via WhatsApp e setup guiado</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="proof-section">
-        <div class="container scroll-reveal">
-            <blockquote>“Passei a gerar 10 posts SEO em 1h e vi +40% no tráfego orgânico” – Coach Digital</blockquote>
-            <p class="validation">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                Validado por estudos da Gartner, Superagi e +74% de usuários satisfeitos
-            </p>
-        </div>
-    </section>
-
-    <section class="persona-section scroll-reveal">
+    <header class="header">
         <div class="container">
-            <h2>Criado para quem faz acontecer</h2>
-            <div class="persona-grid">
-                <div class="persona-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                    <h3>Criadores & Experts</h3>
-                    <p>Transforme seu conhecimento em conteúdo viral e funis que vendem enquanto você dorme.</p>
-                </div>
-                <div class="persona-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-                    <h3>Agências & Freelancers</h3>
-                    <p>Entregue resultados impressionantes para seus clientes em tempo recorde, sem aumentar sua equipe.</p>
-                </div>
-                <div class="persona-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H9v-2h6v2zm3-4H6v-2h12v2zm0-4H6V6h12v4z"/></svg>
-                    <h3>Negócios & SaaS</h3>
-                    <p>Automatize a geração de leads, nutra seu público e escale suas vendas com conteúdo de alta qualidade.</p>
-                </div>
             </div>
-        </div>
-    </section>
+    </header>
 
-    <section class="catalog-section scroll-reveal">
-        <div class="container">
-            <h3 class="section-title">Agentes Individuais</h3>
-            <div class="catalog-grid">
-
-                <div class="product-card">
-                    <h3>FABRICATOR X.0</h3>
-                    <p>O mestre do conteúdo. Cria posts, artigos e roteiros otimizados para SEO em segundos.</p>
-                    <div class="price"><del>R$ 297</del> R$ 197</div>
-                    <a href="https://buy.stripe.com/fZufZj7It7QH3TibwAeIw00" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>FUNIL DIGITAL SUPREMO X.0</h3>
-                    <p>Sua equipe de automação. Cria funis de e-mail, sequências de nutrição e respostas automáticas.</p>
-                    <div class="price"><del>R$ 347</del> R$ 247</div>
-                    <a href="https://buy.stripe.com/6oU7sNe6Ref59dC9oseIw03" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>COMPOSE X.0</h3>
-                    <p>O gênio do design. Gera imagens e layouts de alto impacto para seus posts e anúncios.</p>
-                    <div class="price"><del>R$ 317</del> R$ 217</div>
-                    <a href="https://buy.stripe.com/5kQ3cx9QB9YP2Pe0RWeIw01" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>LUMINARIS X.0</h3>
-                    <p>O especialista em tráfego. Otimiza campanhas e sugere públicos para seus anúncios com IA.</p>
-                    <div class="price"><del>R$ 397</del> R$ 297</div>
-                    <a href="https://buy.stripe.com/cNi3cx0g16MD61q448eIw02" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>ARCHETYPE SUPREMO X.0</h3>
-                    <p>Design estratégico, arquétipos e identidade visual para marcas inesquecíveis com IA.</p>
-                    <div class="price"><del>R$ 367</del> R$ 267</div>
-                    <a href="https://buy.stripe.com/eVq9AV8Mx0of75u0RWeIw04" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>PRODUTOR DIGITAL X.0</h3>
-                    <p>Criação de cursos e infoprodutos com IA, estrutura MasterClass e vendas automatizadas.</p>
-                    <div class="price"><del>R$ 447</del> R$ 347</div>
-                    <a href="https://buy.stripe.com/7sY5kF4wh9YP61qeIMeIw05" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
-                </div>
-
+    <main>
+        <section class="hero-section">
+            <div class="container scroll-reveal">
+                <h1>Gere 10x Mais Conteúdo e Converta no Automático – Com Seu Agente IA X.0</h1>
+                <p>Ative seu ecossistema IA para escalar conteúdo, leads e lucro sem contratar ninguém.</p>
+                <a href="#offer" class="cta-button">✅ Ativar Agente X.0 Agora</a>
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <h3 class="section-title">Combos Supremos</h3>
-            <div class="catalog-grid">
-                <div class="product-card combo">
-                    <h3>✅ Combo Funil Supremo</h3>
-                    <p>O pacote completo para conversão: Fabricator + Funil Digital Supremo + Compose.</p>
-                    <div class="price"><del>R$ 661</del> R$ 597</div>
-                    <small class="savings">Economize R$ 67</small>
-                    <a href="https://buy.stripe.com/5kQfZj3sdfj91LafMQeIw06" class="cta-button">✅ Ativar Combo Supremo Agora</a>
-                </div>
-                <div class="product-card combo">
-                    <h3>✅ Combo Conteúdo Infinito</h3>
-                    <p>Domine a criação: Fabricator + Compose para produção de conteúdo em escala massiva.</p>
-                    <div class="price"><del>R$ 444</del> R$ 397</div>
-                    <small class="savings">Economize R$ 47</small>
-                    <a href="https://buy.stripe.com/bJe4gBe6R7QH61qbwAeIw07" class="cta-button">✅ Ativar Combo Supremo Agora</a>
-                </div>
-                <div class="product-card combo">
-                    <h3>✅ Combo Influencer Virtual</h3>
-                    <p>O kit para viralizar: Luminaris + Compose + Archetype para criar autoridade digital e conteúdo magnético com IA.</p>
-                    <div class="price"><del>R$ 781</del> R$ 497</div>
-                    <small class="savings">Economize R$ 284</small>
-                    <a href="https://buy.stripe.com/28E3cxe6Rfj989y304eIw08" class="cta-button">✅ Ativar Combo Supremo Agora</a>
-                </div>
+        <section class="benefits-section">
+            <div class="container scroll-reveal">
+                <ul class="benefits-list">
+                    <li><span class="icon">✅</span>Gere 10 posts SEO, e-mails e scripts com 1 clique</li>
+                    <li><span class="icon">⚡️</span>Captação, nutrição e conversão com IA – tudo pronto, sem códigos</li>
+                    <li><span class="icon">🎨</span>Visual de alto impacto sem precisar de designer ou editor</li>
+                    <li><span class="icon">📈</span>Resultados reais: +35% tráfego, –40% tempo</li>
+                    <li><span class="icon">💬</span>Suporte VIP via WhatsApp e setup guiado</li>
+                </ul>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="offer" class="scroll-reveal">
-        <div class="offer-section">
+        <section class="proof-section">
+            <div class="container scroll-reveal">
+                <blockquote>“Passei a gerar 10 posts SEO em 1h e vi +40% no tráfego orgânico” – Coach Digital</blockquote>
+                <p class="validation">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    Validado por estudos da Gartner, Superagi e +74% de usuários satisfeitos
+                </p>
+            </div>
+        </section>
+
+        <section class="persona-section scroll-reveal">
             <div class="container">
-                <h2>Oferta válida só para os 50 primeiros</h2>
-                <p>Inclui: Agente X.0 completo + Setup guiado + 2h de Mentoria Exclusiva</p>
-                <div id="countdown-timer" class="urgency-timer">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                    <span>Carregando...</span>
+                <h2>Criado para quem faz acontecer</h2>
+                <div class="persona-grid">
+                    <div class="persona-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                        <h3>Criadores & Experts</h3>
+                        <p>Transforme seu conhecimento em conteúdo viral e funis que vendem enquanto você dorme.</p>
+                    </div>
+                    <div class="persona-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                        <h3>Agências & Freelancers</h3>
+                        <p>Entregue resultados impressionantes para seus clientes em tempo recorde, sem aumentar sua equipe.</p>
+                    </div>
+                    <div class="persona-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H9v-2h6v2zm3-4H6v-2h12v2zm0-4H6V6h12v4z"/></svg>
+                        <h3>Negócios & SaaS</h3>
+                        <p>Automatize a geração de leads, nutra seu público e escale suas vendas com conteúdo de alta qualidade.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="guarantee-section">
-        <div class="container scroll-reveal">
-            <div class="guarantee-box">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
-                <p>🛡️ Garantia Risco Zero: Teste por 7 dias. Se não sentir resultados, reembolsamos 100%, sem perguntas.</p>
+        <section id="catalogo-agentes" class="catalog-section scroll-reveal">
+            <div class="container">
+                <h3 class="section-title">Agentes Individuais</h3>
+                <div class="catalog-grid">
+                    <div class="product-card">
+                        <h3>FABRICATOR X.0</h3>
+                        <p>O mestre do conteúdo. Cria posts, artigos e roteiros otimizados para SEO em segundos.</p>
+                        <div class="price"><del>R$ 297</del> R$ 197</div>
+                        <a href="https://buy.stripe.com/fZufZj7It7QH3TibwAeIw00" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>FUNIL DIGITAL SUPREMO X.0</h3>
+                        <p>Sua equipe de automação. Cria funis de e-mail, sequências de nutrição e respostas automáticas.</p>
+                        <div class="price"><del>R$ 347</del> R$ 247</div>
+                        <a href="https://buy.stripe.com/6oU7sNe6Ref59dC9oseIw03" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>COMPOSE X.0</h3>
+                        <p>O gênio do design. Gera imagens e layouts de alto impacto para seus posts e anúncios.</p>
+                        <div class="price"><del>R$ 317</del> R$ 217</div>
+                        <a href="https://buy.stripe.com/5kQ3cx9QB9YP2Pe0RWeIw01" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>LUMINARIS X.0</h3>
+                        <p>O especialista em tráfego. Otimiza campanhas e sugere públicos para seus anúncios com IA.</p>
+                        <div class="price"><del>R$ 397</del> R$ 297</div>
+                        <a href="https://buy.stripe.com/cNi3cx0g16MD61q448eIw02" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>ARCHETYPE SUPREMO X.0</h3>
+                        <p>Design estratégico, arquétipos e identidade visual para marcas inesquecíveis com IA.</p>
+                        <div class="price"><del>R$ 367</del> R$ 267</div>
+                        <a href="https://buy.stripe.com/eVq9AV8Mx0of75u0RWeIw04" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>PRODUTOR DIGITAL X.0</h3>
+                        <p>Criação de cursos e infoprodutos com IA, estrutura MasterClass e vendas automatizadas.</p>
+                        <div class="price"><del>R$ 447</del> R$ 347</div>
+                        <a href="https://buy.stripe.com/7sY5kF4wh9YP61qeIMeIw05" class="cta-button">✅ Quero Escalar Minhas Entregas com IA</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
 
-    <section class="faq-section scroll-reveal">
-        <div class="container">
-            <h2>Perguntas Frequentes</h2>
-            <div class="faq-accordion">
-                <div class="faq-item">
-                    <button class="faq-question"><span>Como recebo o acesso?</span><span class="icon">+</span></button>
-                    <div class="faq-answer"><p>Imediatamente após a confirmação do pagamento, você receberá um e-mail com um arquivo PDF contendo os links de acesso aos seus agentes e um guia rápido de como utilizá-los.</p></div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question"><span>É reembolsável?</span><span class="icon">+</span></button>
-                    <div class="faq-answer"><p>Sim! Você tem 7 dias de garantia incondicional. Se não ficar satisfeito por qualquer motivo, basta nos enviar um e-mail e devolvemos 100% do seu dinheiro, sem perguntas.</p></div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question"><span>Serve para criadores e agências?</span><span class="icon">+</span></button>
-                    <div class="faq-answer"><p>Com certeza. Os Agentes X.0 foram desenhados para serem flexíveis. Criadores podem escalar sua produção de conteúdo, enquanto agências podem otimizar entregas para múltiplos clientes de forma eficiente.</p></div>
+            <div class="container">
+                <h3 class="section-title">Combos Supremos</h3>
+                <div class="catalog-grid">
+                    <div class="product-card combo">
+                        <h3>✅ Combo Funil Supremo</h3>
+                        <p>O pacote completo para conversão: Fabricator + Funil Digital Supremo + Compose.</p>
+                        <div class="price"><del>R$ 661</del> R$ 597</div>
+                        <small class="savings">Economize R$ 67</small>
+                        <a href="https://buy.stripe.com/5kQfZj3sdfj91LafMQeIw06" class="cta-button">✅ Ativar Combo Supremo Agora</a>
+                    </div>
+                    <div class="product-card combo">
+                        <h3>✅ Combo Conteúdo Infinito</h3>
+                        <p>Domine a criação: Fabricator + Compose para produção de conteúdo em escala massiva.</p>
+                        <div class="price"><del>R$ 444</del> R$ 397</div>
+                        <small class="savings">Economize R$ 47</small>
+                        <a href="https://buy.stripe.com/bJe4gBe6R7QH61qbwAeIw07" class="cta-button">✅ Ativar Combo Supremo Agora</a>
+                    </div>
+                    <div class="product-card combo">
+                        <h3>✅ Combo Influencer Virtual</h3>
+                        <p>O kit para viralizar: Luminaris + Compose + Archetype para criar autoridade digital e conteúdo magnético com IA.</p>
+                        <div class="price"><del>R$ 781</del> R$ 497</div>
+                        <small class="savings">Economize R$ 284</small>
+                        <a href="https://buy.stripe.com/28E3cxe6Rfj989y304eIw08" class="cta-button">✅ Ativar Combo Supremo Agora</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="final-cta-section scroll-reveal">
-    <div class="container">
-        <a href="#catalogo-agentes" class="cta-button">✅ Quero meu Agente IA X.0 Agora</a>
-    </div>
-</section>
+        <section id="offer" class="scroll-reveal">
+            <div class="offer-section">
+                <div class="container">
+                    <h2>Oferta válida só para os 50 primeiros</h2>
+                    <p>Inclui: Agente X.0 completo + Setup guiado + 2h de Mentoria Exclusiva</p>
+                    <div id="countdown-timer" class="urgency-timer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                        <span>Carregando...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="guarantee-section">
+            <div class="container scroll-reveal">
+                <div class="guarantee-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                    <p>🛡️ Garantia Risco Zero: Teste por 7 dias. Se não sentir resultados, reembolsamos 100%, sem perguntas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section scroll-reveal">
+            <div class="container">
+                <h2>Perguntas Frequentes</h2>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Como recebo o acesso?</span><span class="icon">+</span></button>
+                        <div class="faq-answer"><p>Imediatamente após a confirmação do pagamento, você receberá um e-mail com um arquivo PDF contendo os links de acesso aos seus agentes e um guia rápido de como utilizá-los.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>É reembolsável?</span><span class="icon">+</span></button>
+                        <div class="faq-answer"><p>Sim! Você tem 7 dias de garantia incondicional. Se não ficar satisfeito por qualquer motivo, basta nos enviar um e-mail e devolvemos 100% do seu dinheiro, sem perguntas.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Serve para criadores e agências?</span><span class="icon">+</span></button>
+                        <div class="faq-answer"><p>Com certeza. Os Agentes X.0 foram desenhados para serem flexíveis. Criadores podem escalar sua produção de conteúdo, enquanto agências podem otimizar entregas para múltiplos clientes de forma eficiente.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta-section scroll-reveal">
+            <div class="container">
+                <a href="#catalogo-agentes" class="cta-button">✅ Quero meu Agente IA X.0 Agora</a>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
